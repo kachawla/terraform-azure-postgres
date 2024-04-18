@@ -16,7 +16,7 @@ resource "random_id" "resource" {
   byte_length = 8
 }
 
-module "redis" {
+module "postgres" {
   source  = "Azure/postgresql/azurerm"
 
   resource_group_name = var.context.azure.resourceGroup.name
