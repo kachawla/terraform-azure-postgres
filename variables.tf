@@ -8,7 +8,7 @@ variable "username" {
   description = "Username for the Postgres Server."
 }
 
-variable "administrator_password" {
+variable "password" {
   type        = string
   description = "Password associated with the username for the Postgres Server."
   sensitive   = true
